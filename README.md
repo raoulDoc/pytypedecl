@@ -89,7 +89,7 @@ Create a type declaration file that has the name of the Python file you want to 
 Include the following two imports in the Python file that you want to type-check: 
 ```
 import sys
-import checker
+from pytypedecl import checker
 ```
 And the following line after your function and class declarations (before they are used)
 ```
